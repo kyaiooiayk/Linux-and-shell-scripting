@@ -27,7 +27,7 @@
   - `-gt` : To check if num1 is greater than num2 
   - `-lt` : To check if num1 is less than num2 
   - `-le` : For less than equal to 
- - Let us assume we have file called `if_example.sh` containing this:
+ - Let us assume we have a file names `if_example.sh` containing this:
 ```
 #! /bin/bash
 
@@ -39,3 +39,25 @@ else
     echo "Name is not XYZ"
 fi
 ```
+ - Let us assume we have a file named `if_else_example.sh` containing this:
+ ```
+#! /bin/bash
+
+NUM1=1
+NUM2=2
+if [ $NUM1 -eq $NUM2 ]
+then
+    echo "$NUM1 is equal to $NUM2"
+elif [ $NUM1 -lt $NUM2 ]
+then
+    echo "$NUM1 is less than $NUM2"
+else
+    echo echo "$NUM1 is greater than $NUM2"
+fi
+```
+
+## echo
+- Print text on console
+- `>>echo "Hello world!"`
+
+
