@@ -125,4 +125,5 @@ echo "${VALUE}"
 
 ## References
 - https://medium.com/@saswat.sipun/shell-scripting-cheat-sheet-c0ecfb80391 
-- https://devhints.io/bash - [curl](https://www.computerhope.com/unix/curl.htm) 
+- https://devhints.io/bash 
+- [curl](https://www.computerhope.com/unix/curl.htm) 
