@@ -18,3 +18,13 @@
 - It is designed to work without user interaction, so it is ideal for use in a shell script. 
 - The software offers proxy support, user authentication, FTP uploading, HTTP posting, SSL connections, cookies, file transfer resume, metalink, and other features. 
 - `curl [options] [URL...]`
+
+## Conditionals
+- To use conditional we start with `if` and to end we use reverse of that condition i.e `fi`. 
+- Some other commands are: - `-eq` : To check if two number are equal 
+- `-ne` : To check if two number are not equal 
+- `-gt` : To check if num1 is greater than num2 
+- `-lt` : To check if num1 is less than num2 
+- `-le` : For less than equal to 
+- ```
+- ```
