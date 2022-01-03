@@ -55,9 +55,74 @@ else
     echo echo "$NUM1 is greater than $NUM2"
 fi
 ```
-
 ## echo
 - Print text on console
 - `>>echo "Hello world!"`
 
+# Functions
+- `$` is used to place the function arguments. 
+- Let us assume we have a file named `function_example.sh` containing this:
+```
+#! /bin/bash
 
+function hello()
+{
+    echo "hello $1 and $2"
+}
+hello "xyz" "abc"
+```
+
+# history
+- Print the last 1,000 command line history 
+- `>>history`
+- Search in the command history for command lines that contain the word `docker` 
+- `>>history | grep docker`
+
+# Loops
+- Use an alias to take the value of an iterable. 
+- `do` is used for operations 
+- `done` is used of the loop 
+- Let us assume we have a file named `loop_example.sh` containing this:
+```
+#! /bin/bash
+
+NAMES="Brad Peter John"
+for NAME in $NAMES
+    do
+        echo "hello $NAME"
+done
+```
+
+## User inputs
+- How to ask for input to the user.
+- How to store those inputs. 
+- How to print them on console. 
+- Let us assume we have a file named `user_input_example.sh` containing this:
+```
+#! /bin/bash
+
+echo  "Ente two numbers:"
+read num1 num2
+echo "You entered:  $num1 and $num2"
+```
+
+## Variables
+- It is a convection to write variables in **uppercase** letter. 
+- PLease also see two ways of printing the output. 
+- Let us assume we have a file named `variable_example.sh` containing this:
+```
+#! /bin/bash
+
+VALUE = "10"
+echo "$VALUE"
+#or
+echo "${VALUE}"
+```
+
+## Folders
+- List only directories
+- `>>!ls -d */`
+
+## References
+- https://medium.com/@saswat.sipun/shell-scripting-cheat-sheet-c0ecfb80391 
+- https://devhints.io/bash - [curl](https://www.computerhope.com/unix/curl.htm) 
