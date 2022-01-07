@@ -58,7 +58,7 @@ fi
 - Print text on console
 - `>>echo "Hello world!"`
 
-# Functions
+## Functions
 - `$` is used to place the function arguments. 
 - Let us assume we have a file named `function_example.sh` containing this:
 ```
@@ -71,13 +71,13 @@ function hello()
 hello "xyz" "abc"
 ```
 
-# history
+## history
 - Print the last 1,000 command line history 
 - `>>history`
 - Search in the command history for command lines that contain the word `docker` 
 - `>>history | grep docker`
 
-# Loops
+## Loops
 - Use an alias to take the value of an iterable. 
 - `do` is used for operations 
 - `done` is used of the loop 
