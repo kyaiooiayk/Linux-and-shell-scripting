@@ -1,5 +1,6 @@
 # Linux and shell scripting cheatsheet
 
+# Others
 ## Nomenclature
 - **Shell scripting** is a program that can be run on UNIX shell
 - **Bash** is a Unix shell and command language
@@ -7,6 +8,8 @@
 ## #! bin/bash
 - Inside a bash file you need to write this line `#! /bin/bash` so the interpreter knows it is a bash file. 
 - To know where your bash is use `which bash` 
+
+# Linux command
 
 ## chmod
 - Give a bash file (*sh.) persmission to be run 
@@ -17,7 +20,42 @@
 - It is designed to work without user interaction, so it is ideal for use in a shell script. 
 - The software offers proxy support, user authentication, FTP uploading, HTTP posting, SSL connections, cookies, file transfer resume, metalink, and other features. 
 - `curl [options] [URL...]`
+[Ref](https://www.computerhope.com/unix/curl.htm) 
 
+## echo
+- Print text on console
+- `>>echo "Hello world!"`
+
+## history
+- Print the last 1,000 command line history 
+- `>>history`
+- Search in the command history for command lines that contain the word `docker` 
+- `>>history | grep docker`
+
+## which and type
+- `which` shows the full path of (shell) commands. Its output is different based on different systems.
+```
+$ type cd
+cd is a shell builtin
+```
+- `type` display information about command type on Linux. We have 4 command types:
+  - Built-in Shell Commands
+  - Shell Functions
+  - Command Alias
+  - excutable Programs 
+```
+$ which  cd
+cd is a shell builtin
+cd is /usr/bin/cd
+cd is /bin/cd
+```
+[Ref](https://unix.stackexchange.com/questions/476951/what-differences-between-type-cd-and-which-cd-commands-in-linux/476955)
+
+## Folders
+- List only directories
+- `>>!ls -d */`
+
+# Shell scripting
 ## Conditionals
 - To use conditional we start with `if` and to end we use reverse of that condition i.e `fi`. 
 - Some other commands are: 
@@ -54,9 +92,6 @@ else
     echo echo "$NUM1 is greater than $NUM2"
 fi
 ```
-## echo
-- Print text on console
-- `>>echo "Hello world!"`
 
 ## Functions
 - `$` is used to place the function arguments. 
@@ -70,12 +105,6 @@ function hello()
 }
 hello "xyz" "abc"
 ```
-
-## history
-- Print the last 1,000 command line history 
-- `>>history`
-- Search in the command history for command lines that contain the word `docker` 
-- `>>history | grep docker`
 
 ## Loops
 - Use an alias to take the value of an iterable. 
@@ -117,12 +146,3 @@ echo "$VALUE"
 #or
 echo "${VALUE}"
 ```
-
-## Folders
-- List only directories
-- `>>!ls -d */`
-
-## References
-- https://medium.com/@saswat.sipun/shell-scripting-cheat-sheet-c0ecfb80391 
-- https://devhints.io/bash 
-- [curl](https://www.computerhope.com/unix/curl.htm) 
