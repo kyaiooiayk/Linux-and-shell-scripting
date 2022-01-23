@@ -143,9 +143,7 @@ echo "You entered:  $num1 and $num2"
 ```
 
 **Variables**
-- It is a convection to write variables in **uppercase** letter. 
-- PLease also see two ways of printing the output. 
-- Let us assume we have a file named `variable_example.sh` containing this:
+- It is a convection to write variables in **uppercase** letter. Please also see two ways of printing the output. Let us assume we have a file named `variable_example.sh` containing this:
 ```
 #! /bin/bash
 
