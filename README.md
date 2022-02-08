@@ -1,6 +1,7 @@
 # Linux and shell scripting cheatsheet
-There are three sections:
+There are 4 sections:
   - Others
+  - Apple MacBookPro specific
   - Linux commands
   - Shell scripting
 
@@ -12,6 +13,17 @@ There are three sections:
 **#! bin/bash**
 - Inside a bash file you need to write this line `#! /bin/bash` so the interpreter knows it is a bash file. 
 - To know where your bash is use `which bash` 
+
+## Apple MacBookPro specific
+
+**How to install Brew**:
+- [If you have sudo rights](https://brew.sh/)
+- [If you do NOT have sudo rights](https://superuser.com/questions/619498/can-i-install-homebrew-without-sudo-privileges)
+
+**How to add paths to $PATH**
+- Let's assume we want to add this path: `/opt/bin` to the `$PATH`: `export PATH=$PATH:~/opt/bin`
+- To inspect what paths use: `echo $PATH`
+
 
 ## Linux commands
 
