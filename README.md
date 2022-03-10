@@ -83,6 +83,13 @@ cd is /bin/cd
   - `cat` command: it is used to create the file with content.
   - `touch` command: it is used to create a file without any content. The file created using touch command is empty. This command can be used when the user doesn’t have data to store at the time of file creation.
 
+**screen**
+- To start a screen session: `screen`
+- To detach the session while keeping what you sent in the background: `ctrl+a+d`
+- To resume what you were doing: `screen -r`. If it throws an error try: `screen -rd`
+- List all the screen sessionts: `screen -ls`
+- Kill the process with: `skill <pid>`
+
 ## Shell scripting
 **Conditionals**
 - To use conditional we start with `if` and to end we use reverse of that condition i.e `fi`. 
