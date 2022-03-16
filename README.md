@@ -86,7 +86,7 @@ cd is /bin/cd
 **screen**
 - To start a screen session: `screen`
 - To detach the session while keeping what you sent in the background: `ctrl+a+d`
-- To resume what you were doing: `screen -r`. If it throws an error try: `screen -rd`
+- To resume what you were doing: `screen -r <process ID>	`. If it throws an error try: `screen -rd <process ID>	`
 - List all the screen sessionts: `screen -ls`
 - Kill the process with: `skill <pid>`
 
