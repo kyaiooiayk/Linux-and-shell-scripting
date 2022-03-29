@@ -77,6 +77,7 @@ cd is /bin/cd
 **Folders**
 - List only directories: `>>!ls -d */`
 - List all files in a folder in a long list format: `>>ls -l`
+- Count all the elements inside a folder: `ls ./local_path | wc -l`
 
 **touch**
 - The touch command is a standard command used in UNIX/Linux operating system which is used to create, change and modify timestamps of a file. Basically, there are two different commands to create a file in the Linux system which is as follows:
