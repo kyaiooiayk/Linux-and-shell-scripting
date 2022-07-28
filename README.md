@@ -91,6 +91,14 @@ cd is /bin/cd
 - List all the screen sessionts: `screen -ls`
 - Kill the process with: `skill <pid>`
 
+**fg & bg**
+- The `fg` command, short for the `foreground`, is a command that moves a background process on your current Linux shell (meaning the foreground). 
+- This `bg` command, short for `background`, that sends a process running in the foreground (meaning the current Linux shell) to the background.
+
+**ps**
+- `ps` command is used to list the currently running processes and their PIDs along with some other information depends on different options.
+- Get the pid of a process if you know the applciation name: `ps aux | grep 'freemind'`
+
 ## Shell scripting
 **Conditionals**
 - To use conditional we start with `if` and to end we use reverse of that condition i.e `fi`. 
