@@ -19,11 +19,13 @@ shortcut name and command as a string. You will print “I love KDnuggets” by 
 ***
 
 ## `curl`
+- cURL stands for client URL.
 - The curl command transfers data to or from a network server, using one of the supported protocols (HTTP, HTTPS, FTP, FTPS, SCP, SFTP, TFTP, DICT, TELNET, LDAP or FILE). 
 - It is designed to work without user interaction, so it is ideal for use in a shell script. 
 - The software offers proxy support, user authentication, FTP uploading, HTTP posting, SSL connections, cookies, file transfer resume, metalink, and other features. 
 - `curl [options] [URL...]`
-[Ref](https://www.computerhope.com/unix/curl.htm) 
+- Checks the version of cURL you have installed on your system: `curl --version`
+- [Ref](https://www.computerhope.com/unix/curl.htm) 
 ***
 
 ## `echo`
