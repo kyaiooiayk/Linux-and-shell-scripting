@@ -35,12 +35,17 @@ shortcut name and command as a string. You will print “I love KDnuggets” by 
 ## `grep`
 It is used to find data within the file. 
 - Given a text pattern, find all the lines containing that pattern: `$ grep -i "vir" file.csv`
+***
+
+## `head` and `tail`
+- Print the first 10 lines of a document: `head -10 file.txt` 
+- Print the last 10 lines of a document: `tail -10 file.txt` 
+- Select the first 10 lines of a document and write them in a new file: `head -10 file.txt > first_10_lines_file.txt` 
+***
 
 ## `history`
-- Print the last 1,000 command line history 
-- `>>history`
-- Search in the command history for command lines that contain the word `docker` 
-- `>>history | grep docker`
+- Print the last 1,000 command line history: `>>history`
+- Search in the command history for command lines that contain the word `docker`: `>>history | grep docker`
 ***
 
 ## `man`
