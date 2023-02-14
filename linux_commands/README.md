@@ -102,8 +102,11 @@ cd is /bin/cd
 ***
 
 ## `wc`
-Use wc to get information about word count, character count, and the number of lines: `$ wc file.csv`
+- Use wc to get information about word count, character count, and the number of lines: `$ wc file.csv`
+-  Count only the number of line in the document: `$ wc -l file.csv`
+***
 
 ## References
 - https://github.com/jpicerno1/the-art-of-command-line/blob/master/README.md
 - https://www.kdnuggets.com/publications/sheets/Linux_for_Data_Science_Cheatsheet_KDnuggets.pdf
+***
