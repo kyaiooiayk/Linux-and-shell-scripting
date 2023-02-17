@@ -10,8 +10,6 @@ shortcut name and command as a string. You will print “I love KDnuggets” by 
 ## `source` vs `export`
 - `source some_script.sh`, or the POSIX-compliant equivalent, `. some_script.sh`, brings variables **in** from other scripts. Something similar is done in python with `import some_module` in Python, or `#include <some_header_file.h>` in C or C++.
 - `export my_var="something"` pushes variables **out** to other scripts/processes which are called/started from the current script/process. Using export some_var="something" is kind of like setting that variable locally, so it is available for the rest of the current script or process, and then also passing it in to any and all sub-scripts or processes you may call from this point onward.
-
-[Ref](https://stackoverflow.com/questions/15474650/unix-what-is-the-difference-between-source-and-export)
 ***
 
 ## `chmod`
@@ -25,7 +23,6 @@ shortcut name and command as a string. You will print “I love KDnuggets” by 
 - The software offers proxy support, user authentication, FTP uploading, HTTP posting, SSL connections, cookies, file transfer resume, metalink, and other features. 
 - `curl [options] [URL...]`
 - Checks the version of cURL you have installed on your system: `curl --version`
-- [Ref](https://www.computerhope.com/unix/curl.htm) 
 ***
 
 ## `echo`
@@ -53,7 +50,7 @@ Learn about any Linux commands or tools by using the man command and the tool na
 ***
 
 ## `which` and `type`
-- `which` shows the full path of (shell) commands. Its output is different based on different systems. [Ref](https://unix.stackexchange.com/questions/476951/what-differences-between-type-cd-and-which-cd-commands-in-linux/476955)
+- `which` shows the full path of (shell) commands. Its output is different based on different systems.
 ```
 $ type cd
 cd is a shell builtin
@@ -106,7 +103,16 @@ cd is /bin/cd
 -  Count only the number of line in the document: `$ wc -l file.csv`
 ***
 
+## `wget`
+- Wget is a networking command-line tool that lets you download files and interact with REST APIs. It supports the HTTP , HTTPS , FTP , and FTPS internet protocols. Wget can deal with unstable and slow network connections. In the event of a download failure, Wget keeps trying until the entire file has been retrieved.
+- `wget [options] [URL...]`
+***
+
 ## References
 - https://github.com/jpicerno1/the-art-of-command-line/blob/master/README.md
 - https://www.kdnuggets.com/publications/sheets/Linux_for_Data_Science_Cheatsheet_KDnuggets.pdf
+- [`curl`](https://www.computerhope.com/unix/curl.htm) 
+- [`which` and `type`](https://unix.stackexchange.com/questions/476951/what-differences-between-type-cd-and-which-cd-commands-in-linux/476955)
+- [`wget`](https://www.digitalocean.com/community/tutorials/how-to-use-wget-to-download-files-and-interact-with-rest-apis)
+- [`sourcw` vs. `export`](https://stackoverflow.com/questions/15474650/unix-what-is-the-difference-between-source-and-export)
 ***
