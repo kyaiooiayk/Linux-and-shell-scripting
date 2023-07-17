@@ -1,10 +1,10 @@
 
 # MacOS-specific
 - Package management with brew (Homebrew) and/or port (MacPorts). These can be used to install on MacOS many of the above commands.
-- Be aware MacOS is based on BSD Unix, and many commands (for example ps, ls, tail, awk, sed) have many subtle variations from Linux, which is largely influenced by System V-style Unix and GNU tools.
+- Be aware that MacOS is based on BSD Unix, and many commands (for example ps, ls, tail, awk, sed) have many subtle variations from Linux, which is largely influenced by System V-style Unix and GNU tools.
 ***
 
-## How to install Brew:
+## How to install Brew
 - [If you have sudo rights](https://brew.sh/): `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 - [If you do NOT have sudo rights](https://superuser.com/questions/619498/can-i-install-homebrew-without-sudo-privileges)
 ***
