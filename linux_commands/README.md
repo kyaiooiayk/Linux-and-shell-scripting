@@ -30,7 +30,8 @@ shortcut name and command as a string. You will print “I love KDnuggets” by 
 ***
 
 ## `grep`
-It is used to find data within the file. 
+- It stands for "Global Regular Expression Print".
+- It is used to find data within the file. 
 - Given a text pattern, find all the lines containing that pattern: `$ grep -i "vir" file.csv`
 ***
 
@@ -51,7 +52,7 @@ Learn about any Linux commands or tools by using the man command and the tool na
 
 ## `which` and `type`
 - `which` shows the full path of (shell) commands. Its output is different based on different systems.
-```
+```shell
 $ type cd
 cd is a shell builtin
 ```
@@ -60,7 +61,7 @@ cd is a shell builtin
   - Shell Functions
   - Command Alias
   - excutable Programs 
-```
+```shell
 $ which cd
 cd is a shell builtin
 cd is /usr/bin/cd
