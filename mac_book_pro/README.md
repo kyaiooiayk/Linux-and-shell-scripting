@@ -7,6 +7,7 @@
 ## How to install Brew
 - [If you have sudo rights](https://brew.sh/): `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 - [If you do NOT have sudo rights](https://superuser.com/questions/619498/can-i-install-homebrew-without-sudo-privileges)
+- If you have the new M1 chip and brew threw a warning check this [link](https://stackoverflow.com/questions/65487249/getting-a-warning-when-installing-homebrew-on-macos-big-sur-m1-chip). Briefly, if you read the suggestion offered on console, you should be able to quickly fix this.
 ***
 
 ## How to install htop
