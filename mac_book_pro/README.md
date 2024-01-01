@@ -30,3 +30,6 @@
 - See current configuration with: `ulimit -a`
 - Increase the limit to 10000: `ulimit -Sn 10000` or (not suggested): `ulimit -Sn unlimited`
 ***
+
+## How to prevent sleep mode when closing the lid
+- `sudo pmset disablesleep 1`
